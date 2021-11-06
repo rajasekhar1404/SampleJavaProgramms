@@ -13,10 +13,10 @@ public static void main(String[] args) {
             break;
         }
         else if(userNumber > myNumber) {
-            System.out.println("your number is too high bro");
+            System.out.println("your number is too high");
         }
         else {
-            System.out.println("your number is too low bro");
+            System.out.println("your number is too low");
         }
     } while (userNumber >= 0);
     System.out.print("my number was: ");
